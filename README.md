@@ -14,7 +14,7 @@ Tested on:
 
 ## Setup:
 
-1. Copy shell script check_domain.sh to your Zabbix server external scripts dir (default: /usr/lib/zabbix/externalscripts/)
+1. Copy shell script domain.py to your Zabbix server external scripts dir (default: /usr/lib/zabbix/externalscripts/)
 2. Make it executable (e.g. chmod +x /usr/lib/zabbix/externalscripts/domain.py)
 2. Import yaml template to your zabbix server
 3. Create a host with a domain name as the Host name and attach the template to the host. Make sure required macros are filled out
